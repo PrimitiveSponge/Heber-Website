@@ -1,0 +1,58 @@
+
+.homepage {
+    text-align: center;
+    background-color: lightslategray;
+}
+
+body.set {
+    text-align: center;
+    background-image: url(10808848.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 37%;
+}
+
+body.activities {
+    background-image: url("screen-0.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+body.food {
+    background-image: url("10971655.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header {
+    height: 20vh;
+
+    background-image: url("10880383.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 100%, 37%;
+
+}
+
+nav>ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: dotted black;
+    padding: 20px;
+    font-size: 30px;
+  }
